@@ -1,9 +1,9 @@
 from django.shortcuts import render_to_response, render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.template import RequestContext
-from .models import User
+from .models import UserDetails
 from importlib import import_module
-from django.core.urlresolvers import clear_url_caches
+from django.urls import clear_url_caches
 from django.db import models
 from django.apps import apps
 from django.contrib import admin
@@ -14,13 +14,13 @@ def register(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
-            userdetail=User.objects.create(
+            userdetail=UserDetails.objects.create(
             Name=form.cleaned_data['Name'],
             Email=form.cleaned_data['Email'],
-            Destrict=form.cleaned_data['District'],
-            contact=form.cleaned_data['contact'],
+            District=form.cleaned_data['District'],
+            Contact=form.cleaned_data['Contact'],
                 )
-            return HttpResponseRedirect('frontend/index.html/')
+            return HttpResponseRedirect('/')
     
 
     else:
@@ -30,9 +30,8 @@ def register(request):
     }
 
     
-    return render(
+    return render_to_response(
     'signup/signup.html',
     variables,
-    RequestContext(request)
     )
 
