@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>WSSO</title>
 
     <!-- Bootstrap core CSS -->
     {% load staticfiles %}
@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">WSSO</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -41,13 +41,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contaminants">Contaminants</a>
+            </li>
+	    <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sign Up</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="http://indiawater.gov.in/IMISReports/Reports/WaterQuality/ rpt_WQM_QAffectedHabByLabTesting_D.aspx?Rep=0&RP=Y">Data</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Log in</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="analysis/">Analysis</a>
             </li>
           </ul>
         </div>
@@ -58,16 +61,17 @@
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="{% static 'frontend/img/profile.png' %}" alt="">
-        <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
+        <h1 class="text-uppercase mb-0">Ministry of Water</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
+        <h2 class="font-weight-light mb-0">Keeping up with Water Standards</h2>
       </div>
     </header>
+
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contaminants</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
@@ -77,7 +81,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'frontend/img/portfolio/cabin.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'frontend/img/portfolio/arsenic.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -87,7 +91,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'frontend/img/portfolio/cake.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'frontend/img/portfolio/fluoride.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -97,7 +101,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'frontend/img/portfolio/circus.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'frontend/img/portfolio/iron.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -107,7 +111,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'frontend/img/portfolio/game.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'frontend/img/portfolio/nacl.jpeg' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -117,10 +121,10 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'frontend/img/portfolio/safe.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'frontend/img/portfolio/nitrate.png' %}" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <!--<div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -129,10 +133,12 @@
               </div>
               <img class="img-fluid" src="{% static 'frontend/img/portfolio/submarine.png' %}" alt="">
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
+
+
 
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
@@ -141,23 +147,31 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead">The goal of WSSO is to provide every rural person with adequate safe water for
+drinking, cooking and other domestic basic needs on a sustainable basis. This basic
+requirement should meet minimum water quality standards and be readily and
+conveniently accessible at all times and in all situations.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead">Safe
+water for all can only be assured when the resources are properly managed,
+handled and time to time safety precautions are applied and monitored with the
+help of technology and local resources.</p>
           </div>
         </div>
-        <div class="text-center mt-4">
+        <!--<div class="text-center mt-4">
           <a class="btn btn-xl btn-outline-light" href="#">
             <i class="fa fa-download mr-2"></i>
             Download Now!
           </a>
-        </div>
+        </div>-->
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    
+    
+     <!-- Contact Section -->
+    <!--<section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
         <hr class="star-dark mb-5">
@@ -165,7 +179,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
@@ -203,18 +217,24 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">2215 John Daniel Drive
-              <br>Clark, MO 65243</p>
+            <h4 class="text-uppercase mb-4">Team Name</h4>
+            <p class="lead mb-0">AfroHash
+              <br>We don't like to code</p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
+          
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4"></h4>
+            <p class="lead mb-0">
+              <a href="http://startbootstrap.com"></a></p>
+          </div>
+	  <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
@@ -244,11 +264,6 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-          </div>
         </div>
       </div>
     </footer>
@@ -277,10 +292,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Arsenic</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/cabin.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/arsenic.png' %}" alt="">
+              <p class="mb-5">It is a high-profile problem due to the use of deep tubewells for water supply in the Ganges Delta, causing serious arsenic poisoning to large numbers of people. </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -299,10 +314,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Fluoride</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/cake.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/fluoride.png' %}" alt="">
+              <p class="mb-5">Fluoride is added to water in small concentrations by many public water suppliers to protect the teeth from decay and to build bone strength. Yet, in high concentrations (more than several parts per million) fluoride can harm human health.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -321,10 +336,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Iron</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/circus.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/iron.png' %}" alt="">
+              <p class="mb-5">The presence of iron in ground water is a direct result of its natural existence in underground rock formations and precipitation water that infiltrates through these formations. As the water moves through the rocks some of the iron dissolves and accumulates in aquifers which serve as a source for ground water.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -343,10 +358,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Salinity</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/game.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/nacl.jpeg' %}" alt="">
+              <p class="mb-5">The effect of salinity on the environment is widespread. Individual plants may be replaced by salt-tolerant species, while animals may be lost as their food source disappears; ultimately, entire ecosystems can change. </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -365,10 +380,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Nitrate</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/safe.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="{% static 'frontend/img/portfolio/nitrate.png' %}" alt="">
+              <p class="mb-5">Methemoglobinemia is the most significant health problem associated with nitrate in drinking water. Blood contains an iron-based compound called hemoglobin, which carries oxygen. When nitrite is present, hemoglobin can be converted to methemoglobin, which cannot carry oxygen.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
