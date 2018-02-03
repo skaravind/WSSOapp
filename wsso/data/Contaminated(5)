@@ -1,0 +1,112 @@
+<html xmlns:x='urn:schemas-microsoft-com:office:excel'><head><style>html,body {	margin: 0px;	height:100%;	font-family: Arial,Verdana, Helvetica, sans-serif;}a {	color: #000000;	text-decoration: none;}a:hover {	text-decoration : underline;}.printcolor{    color : Black;}thead {    display: table-header-group; } tfoot {     display: table-footer-group; } .LeftPane{     background-color :#F5F5F9;     margin: 0 0 0 0;     font-size : 10px;}.UperLinks{   vertical-align:middle;   font-size : 10px;   font-weight:bold;}.ReportSectionHeader {   background-image : url('Images/ReportSectionHeader.png');   font-size : 11px;   font-weight:bold;}.ReportSection{   background-image : url('Images/ReportSectionHeader.png');   font-size : 11px;}.ReportHeading{   font-size : 16px;   text-align : center;   font-weight:bold;   color : Black;   }.ReportSubHeading{   font-size : 11px;   font-weight:bold;   color : Black;   text-align: left;}.ReportFooter{   font-size : 10px;   font-weight:bold;}.TableFooter{   display: table-header-group;    font-size : 8px;   font-weight:bold;}.ReportTable{   border-collapse :collapse;    border-left : 1px solid Black;}.OuterReportTable{   border-collapse :collapse; }.ReportTable th {	font-size : 12px;	font-weight:bold;	color: black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	border-top: 1px solid Black;	letter-spacing: 0px;		text-align: center;	padding: 0px 0px 0px 0px;	/*background: #CAE8EA url(Images/bg_header.jpg) no-repeat;*/	font-weight :bold;	/*mso-number-format:"\@"; */}.ReportTable td {    font-size : 11px;    border-top: 1px solid Black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	padding: 0px 1px 0px 1px;	color: black;	text-align: left;		/*mso-number-format:"\@"; */}.SNewFontReportTable{   border-collapse :collapse;    border-left : 1px solid #bbd9ee;	}.SNewFontReportTable tr:hover {	background-color: #fffacd; } .SNewFontReportTable th {	font-size : 11px;	font-weight:bold;	color: black;	border-right: 2px solid Black;	border-bottom: 2px solid Black;	border-top: 2px solid Black;	letter-spacing: 0px;		text-align: center;	padding: 0px 0px 0px 0px;	/*background: #CAE8EA url(Images/bg_header.jpg) no-repeat;*/	font-weight :bold;	/*mso-number-format:"\@"; */}.SNewFontReportTable td {    font-size : 10px;    border-top: 1px solid Black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	padding: 0px 1px 0px 1px;	color: black;	text-align: left;	text-transform :capitalize;	/*mso-number-format:"\@"; */}.oddrowcolor{	background-color: #FFFFFF;}.evenrowcolor{	background-color: #FFFFFF;}.ReportTable tr:hover {background-color: #fffacd;}.hidden{    display : none;}.SelectedParameter{    font-size: 10px;	font-weight: bold;}.dropDownStyle {	border-left: 1px groove #000000;	border-right: 1px groove #000000;	border-top: 1px groove #666666;	border-bottom: 1px groove #CCCCCC;	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;	text-decoration: none;	letter-spacing: normal;	word-spacing: normal;	width :auto;	height: 18px;}.AlignRight {	TEXT-ALIGN: right; 	width:100%;}.GridviewTable td {    font-size : 11px;    border-top: 1px solid #bbd9ee;	border-right: 1px solid #bbd9ee;	border-bottom: 1px solid #bbd9ee;	padding: 0px 1px 0px 1px;	color: black;	text-transform :capitalize;	/*mso-number-format:"\@"; */}.PrintGrid td{    font-size:11px;    font-family:Arial, Helvetica, sans-serif;    font-weight: bold;}</style></head><body>
+                            
+                                <tr><td>1351</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TATKELA</td><td>TATKELA</td><td>LOHARA PARA</td><td>Iron</td><td>1.00</td><td>1.97</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1352</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TATKELA</td><td>TATKELA</td><td>MAHKUL PARA</td><td>Iron</td><td>1.00</td><td>2.08</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1353</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TATKELA</td><td>TATKELA</td><td>MUDA PARA</td><td>Nitrate</td><td>45.00</td><td>46.37</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1354</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TATKELA</td><td>TATKELA</td><td>SIDAR PARA</td><td>Fluoride</td><td>1.50</td><td>1.75</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1355</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TATKELA</td><td>TATKELA</td><td>TATKELA</td><td>Iron</td><td>1.00</td><td>3.02</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1356</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLAGE</td><td>EKARA</td><td>BAZAR PARA</td><td>Iron</td><td>1.00</td><td>1.34</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1357</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLAGE</td><td>EKARA</td><td>EKARA (MAIN BASTI)</td><td>Iron</td><td>1.00</td><td>1.83</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1358</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLAGE</td><td>EKARA</td><td>INDIRA AAWAS</td><td>Iron</td><td>1.00</td><td>4.34</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1359</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLAGE</td><td>TOLGE</td><td>BHELWATIKARA</td><td>Iron</td><td>1.00</td><td>2.75</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>1360</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLAGE</td><td>TOLGE</td><td>TOLAGE</td><td>Iron</td><td>1.00</td><td>6.34</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1361</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>DARRIPARA</td><td>Iron</td><td>1.00</td><td>2.77</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1362</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>KODAPARA</td><td>Iron</td><td>1.00</td><td>2.57</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1363</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>MOHNIPARA</td><td>Iron</td><td>1.00</td><td>2.53</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1364</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>PANPARA</td><td>Iron</td><td>1.00</td><td>2.73</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1365</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>TONGARIPARA</td><td>Iron</td><td>1.00</td><td>1.86</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1366</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>TONGOPARA</td><td>Iron</td><td>1.00</td><td>4.45</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1367</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TOLMA</td><td>TOLMA</td><td>UPPARPARA</td><td>Iron</td><td>1.00</td><td>1.24</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1368</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TURTURA</td><td>TURTURA</td><td>AAMA PARA</td><td>Iron</td><td>1.00</td><td>1.89</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1369</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TURTURA</td><td>TURTURA</td><td>KOLIYA PARA</td><td>Iron</td><td>1.00</td><td>1.26</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1370</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TURTURA</td><td>TURTURA</td><td>TENDU PARA</td><td>Iron</td><td>1.00</td><td>5.22</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1371</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>LAILUNGA</td><td>TURTURA</td><td>TURTURA</td><td>TURTURA</td><td>Iron</td><td>1.00</td><td>1.23</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1372</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>AMAPALI</td><td>AMAPALI</td><td>INDIRA AWAS</td><td>Iron</td><td>1.00</td><td>2.34</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1373</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>AMAPALI</td><td>AMAPALI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>3.38</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1374</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>AUARDA</td><td>AURDA</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>1.14</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>1375</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>AUARDA</td><td>AURDA</td><td>SCHOOL PARA</td><td>Iron</td><td>1.00</td><td>1.15</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1376</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BADE BHANDAR</td><td>BADEBHANDAR</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>2.85</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1377</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BADE HALDI</td><td>BADEHARDI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>1.51</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1378</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BAGHADOLA</td><td>BAGHABOLA</td><td>INDIRA AWAS</td><td>Iron</td><td>1.00</td><td>1.48</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1379</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BAGHADOLA</td><td>BAGHABOLA</td><td>MAIN HABITATION</td><td>Nitrate</td><td>45.00</td><td>53.34</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1380</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BARADOLI</td><td>BARADOLI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>11.41</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1381</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BARADOLI</td><td>SINGPURI</td><td>DEEPAPARA</td><td>Iron</td><td>1.00</td><td>2.17</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1382</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BARPALI</td><td>BARPALI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>1.27</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>1383</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BARPALI</td><td>SARWANI</td><td>HARIJAN PARA</td><td>Iron</td><td>1.00</td><td>2.19</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1384</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BASANPALI</td><td>BASANPALI</td><td>AWAS PARA</td><td>Iron</td><td>1.00</td><td>2.15</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1385</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BASANPALI</td><td>BASANPALI</td><td>BANJARI MANDIR PARA</td><td>Iron</td><td>1.00</td><td>4.57</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1386</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BELPALI</td><td>BELPALI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>3.74</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1387</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BELPALI</td><td>KUNJEDABARI</td><td>SCHOOL PARA</td><td>Iron</td><td>1.00</td><td>2.22</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1388</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BHATHANPALI</td><td>BHATHANPALI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>3.22</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1389</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>BINJKOT</td><td>DEEPA PARA</td><td>Iron</td><td>1.00</td><td>3.60</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1390</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>BINJKOT</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>13.54</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1391</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>BINJKOT</td><td>TILAI PALI</td><td>Iron</td><td>1.00</td><td>5.45</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>1392</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>BOIRDIH</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>3.76</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1393</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>NAWAPALI</td><td>GANDA PARA</td><td>Iron</td><td>1.00</td><td>1.16</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1394</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BINJKOT</td><td>NAWAPALI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>8.40</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1395</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BONDA</td><td>BONDA</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>9.15</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1396</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BONDA</td><td>BONDA</td><td>NAVADIH</td><td>Iron</td><td>1.00</td><td>4.15</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1397</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BONDA</td><td>JELADI</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>4.57</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1398</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BONDA</td><td>SILADI</td><td>HARIJAN PARA</td><td>Iron</td><td>1.00</td><td>3.33</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1399</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BUNUGA</td><td>BUNGA</td><td>JARAHA KOTHAR</td><td>Iron</td><td>1.00</td><td>1.38</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>1400</td><td>CHHATTISGARH</td><td>RAIGARH</td><td>PUSORE</td><td>BUNUGA</td><td>BUNGA</td><td>MAIN HABITATION</td><td>Iron</td><td>1.00</td><td>1.58</td><td>Partial Covered</td></tr>
+                            
+                                <div id="rpt_ctl103_tfootReport"></div>
+                                </table>
+                            
+                    </td>
+                </tr>
+                <tr>
+                    <td><divfootertext></divfootertext></td>
+                </tr>
+            </table>
+        </div></form></body></html>

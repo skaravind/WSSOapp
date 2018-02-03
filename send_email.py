@@ -2,26 +2,20 @@
 # your Gmail account 
 import smtplib
  
-def send_email(message):# creates SMTP session
+def send_email(receiver, subject, text):# creates SMTP session
 	try:
 		s = smtplib.SMTP('smtp.gmail.com', 587)
- 
-		# start TLS for security
+ 		# start TLS for security
 		s.starttls()
-	 
-		# Authentication
-		s.login("utkarsh97s@gmail.com", "")
-	 
-		# sending the mail
-		s.sendmail("utkarsh97s@gmail.com", "vyombani@gmail.com", message)
-		s.sendmail("utkarsh97s@gmail.com", "aravindraghavi@gmail.com", message)
-	 
-		# terminating the session
+	 	# Authentication
+		s.login("wssotesttest@gmail.com","wssotest123")
+
+		message = 'Subject: {}\n\n{}'.format(subject,text)
+	 	# sending the mail
+		s.sendmail("wssotesttest@gmail.com" ,receiver, message)
+	 	# terminating the session
 		s.quit()
-
 		print("Email Sent")
-
-
 	except:
 		print("Email failed to send.")
 

@@ -1,0 +1,60 @@
+<html xmlns:x='urn:schemas-microsoft-com:office:excel'><head><style>html,body {	margin: 0px;	height:100%;	font-family: Arial,Verdana, Helvetica, sans-serif;}a {	color: #000000;	text-decoration: none;}a:hover {	text-decoration : underline;}.printcolor{    color : Black;}thead {    display: table-header-group; } tfoot {     display: table-footer-group; } .LeftPane{     background-color :#F5F5F9;     margin: 0 0 0 0;     font-size : 10px;}.UperLinks{   vertical-align:middle;   font-size : 10px;   font-weight:bold;}.ReportSectionHeader {   background-image : url('Images/ReportSectionHeader.png');   font-size : 11px;   font-weight:bold;}.ReportSection{   background-image : url('Images/ReportSectionHeader.png');   font-size : 11px;}.ReportHeading{   font-size : 16px;   text-align : center;   font-weight:bold;   color : Black;   }.ReportSubHeading{   font-size : 11px;   font-weight:bold;   color : Black;   text-align: left;}.ReportFooter{   font-size : 10px;   font-weight:bold;}.TableFooter{   display: table-header-group;    font-size : 8px;   font-weight:bold;}.ReportTable{   border-collapse :collapse;    border-left : 1px solid Black;}.OuterReportTable{   border-collapse :collapse; }.ReportTable th {	font-size : 12px;	font-weight:bold;	color: black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	border-top: 1px solid Black;	letter-spacing: 0px;		text-align: center;	padding: 0px 0px 0px 0px;	/*background: #CAE8EA url(Images/bg_header.jpg) no-repeat;*/	font-weight :bold;	/*mso-number-format:"\@"; */}.ReportTable td {    font-size : 11px;    border-top: 1px solid Black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	padding: 0px 1px 0px 1px;	color: black;	text-align: left;		/*mso-number-format:"\@"; */}.SNewFontReportTable{   border-collapse :collapse;    border-left : 1px solid #bbd9ee;	}.SNewFontReportTable tr:hover {	background-color: #fffacd; } .SNewFontReportTable th {	font-size : 11px;	font-weight:bold;	color: black;	border-right: 2px solid Black;	border-bottom: 2px solid Black;	border-top: 2px solid Black;	letter-spacing: 0px;		text-align: center;	padding: 0px 0px 0px 0px;	/*background: #CAE8EA url(Images/bg_header.jpg) no-repeat;*/	font-weight :bold;	/*mso-number-format:"\@"; */}.SNewFontReportTable td {    font-size : 10px;    border-top: 1px solid Black;	border-right: 1px solid Black;	border-bottom: 1px solid Black;	padding: 0px 1px 0px 1px;	color: black;	text-align: left;	text-transform :capitalize;	/*mso-number-format:"\@"; */}.oddrowcolor{	background-color: #FFFFFF;}.evenrowcolor{	background-color: #FFFFFF;}.ReportTable tr:hover {background-color: #fffacd;}.hidden{    display : none;}.SelectedParameter{    font-size: 10px;	font-weight: bold;}.dropDownStyle {	border-left: 1px groove #000000;	border-right: 1px groove #000000;	border-top: 1px groove #666666;	border-bottom: 1px groove #CCCCCC;	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;	text-decoration: none;	letter-spacing: normal;	word-spacing: normal;	width :auto;	height: 18px;}.AlignRight {	TEXT-ALIGN: right; 	width:100%;}.GridviewTable td {    font-size : 11px;    border-top: 1px solid #bbd9ee;	border-right: 1px solid #bbd9ee;	border-bottom: 1px solid #bbd9ee;	padding: 0px 1px 0px 1px;	color: black;	text-transform :capitalize;	/*mso-number-format:"\@"; */}.PrintGrid td{    font-size:11px;    font-family:Arial, Helvetica, sans-serif;    font-weight: bold;}</style></head><body>
+                            
+                                <tr><td>1</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ABHANPUR</td><td>AALEKHUNTA</td><td>ALEKHUTA</td><td>AALEKHUNTA</td><td>Fluoride</td><td>1.50</td><td>2.74</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>2</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ABHANPUR</td><td>UMARPOTI</td><td>UMAR POTI</td><td>HARIJANPARA</td><td>Fluoride</td><td>1.50</td><td>3.08</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>3</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ABHANPUR</td><td>UMARPOTI</td><td>UMAR POTI</td><td>UMARPOTI</td><td>Fluoride</td><td>1.50</td><td>2.68</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>4</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>BHAISMUDI</td><td>BHAINSMUDI</td><td>BHAISMUDI</td><td>Fluoride</td><td>1.50</td><td>4.96</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>5</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>BHALERA</td><td>BHALERA</td><td>KHASBASTI</td><td>Fluoride</td><td>1.50</td><td>3.32</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>6</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>CHHATERA</td><td>CHHATERA</td><td>BHATAPARA</td><td>Fluoride</td><td>1.50</td><td>3.20</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>7</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>CHHATERA</td><td>CHHATERA</td><td>FOKATPARA</td><td>Fluoride</td><td>1.50</td><td>2.99</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>8</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>CHHATERA</td><td>CHHATERA</td><td>KHASBASTI</td><td>Fluoride</td><td>1.50</td><td>3.20</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>9</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>GOURBHAT</td><td>GOURBHAT</td><td>KHASBASTI</td><td>Fluoride</td><td>1.50</td><td>6.96</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>10</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>KUKRA</td><td>KUKRA</td><td>NARAROAD</td><td>Fluoride</td><td>1.50</td><td>3.54</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>11</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>KUTELA</td><td>KUTELA</td><td>KUTHELA</td><td>Fluoride</td><td>1.50</td><td>2.83</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>12</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>MOKHALA</td><td>MOKHALA</td><td>KHASBASTI</td><td>Fluoride</td><td>1.50</td><td>2.23</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>13</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>SEJA</td><td>SEJA</td><td>SATNAMIPARA</td><td>Fluoride</td><td>1.50</td><td>5.90</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>14</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>ARANG</td><td>SEJA</td><td>SEJA</td><td>SEJA</td><td>Fluoride</td><td>1.50</td><td>6.24</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>15</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>DHARSIWA</td><td>NIMORA</td><td>NIMORA -1 (NIMORA)</td><td>NIMORA</td><td>Fluoride</td><td>1.50</td><td>1.84</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>16</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>DHARSIWA</td><td>TIWARIYA</td><td>TIWARAIYA</td><td>NAIABADI</td><td>Fluoride</td><td>1.50</td><td>2.58</td><td>Partial Covered</td></tr>
+                            
+                                <tr><td>17</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>BELDARSIWANI</td><td>BELDAR SEONI</td><td>MAINBASTI</td><td>Fluoride</td><td>1.50</td><td>6.68</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>18</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>BHADHA</td><td>BHADAHA</td><td>BHADHA</td><td>Fluoride</td><td>1.50</td><td>3.99</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>19</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>GHIWRA</td><td>GHIBRA</td><td>BARCHHAHAPARA</td><td>Fluoride</td><td>1.50</td><td>3.11</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>20</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>GHIWRA</td><td>GHIBRA</td><td>BATAPARA</td><td>Fluoride</td><td>1.50</td><td>3.41</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>21</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>GHIWRA</td><td>GHIBRA</td><td>GHIWRA</td><td>Fluoride</td><td>1.50</td><td>3.98</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>22</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>MOHDI</td><td>MOHADI</td><td>MOHDI</td><td>Fluoride</td><td>1.50</td><td>3.51</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>23</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>PADABHAT</td><td>PADABHATH</td><td>PADABHAT</td><td>Fluoride</td><td>1.50</td><td>2.03</td><td>Fully Covered</td></tr>
+                            
+                                <tr><td>24</td><td>CHHATTISGARH</td><td>RAIPUR</td><td>TILDA</td><td>SILPATTI</td><td>SILPATTI</td><td>SILPATTI</td><td>Fluoride</td><td>1.50</td><td>4.16</td><td>Fully Covered</td></tr>
+                            
+                                <div id="rpt_ctl51_tfootReport"></div>
+                                </table>
+                            
+                    </td>
+                </tr>
+                <tr>
+                    <td><divfootertext></divfootertext></td>
+                </tr>
+            </table>
+        </div></form></body></html>
