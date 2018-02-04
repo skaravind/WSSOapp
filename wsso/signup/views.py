@@ -9,6 +9,10 @@ from django.apps import apps
 from django.contrib import admin
 from django.conf import settings
 from signup.forms import *
+from signup.data.send_email import *
+import urllib
+from bs4 import BeautifulSoup
+import signup.data
 
 def register(request):
     if request.method == 'POST':
@@ -18,6 +22,8 @@ def register(request):
             Name=form.cleaned_data['Name'],
             Email=form.cleaned_data['Email'],
             District=form.cleaned_data['District'],
+            Block=form.cleaned_data['Block'],
+            Panchayat=form.cleaned_data['Panchayat'],
             Contact=form.cleaned_data['Contact'],
                 )
             return HttpResponseRedirect('/')
@@ -35,3 +41,28 @@ def register(request):
     variables,
     )
 
+
+def email(request):
+    data = []
+    for i in range(8):
+        page = open("signup/data/Contaminated("+str(i)+")")
+        soup = BeautifulSoup(page, "lxml")
+        table = soup.find_all("tr")
+        rows = []
+        for item in table:
+            elements = []
+            for ele in item.find_all("td"):
+                elements.append(ele.text)
+            rows.append(elements)
+        data.append(rows)
+    users = UserDetails.objects
+    for district in data:
+        for row in district:
+            try:
+                users_matched = users.filter(Panchayat=row[4])
+            except:
+                pass
+            for u in users_matched:
+                print('match found, sending email')
+                send_email(u.Email, 'Contamination Alert', 'The contaminant in hazardous quantity is '+row[7]+'. The permissible limit is '+row[8]+' while the current value is '+row[9]+'. Please be safe.')
+    return HttpResponseRedirect('/')
