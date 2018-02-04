@@ -1,6 +1,10 @@
 {% extends "signup/base.html" %}
 {% block content %}
+	    
+
+
 	<center>
+		<h1>WSSO</h1>
     <form method="post" action=".">
         <table border="0">
             {{ form.as_table }}
@@ -8,4 +12,45 @@
         <input type="submit" value="Register" />
     </form>
     </center>
+    
+<style type="text/css">
+	body{
+    background-color: #7FFFD4;
+}
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+input[type=text] {
+    background-color: #FFEBCD;
+    color: black;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 1.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+</style>
+
+
+
+
+
 {% endblock content %}
