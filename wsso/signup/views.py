@@ -9,10 +9,11 @@ from django.apps import apps
 from django.contrib import admin
 from django.conf import settings
 from signup.forms import *
+'''
 from signup.data.send_email import *
 import urllib
 from bs4 import BeautifulSoup
-import signup.data
+import signup.data'''
 
 def register(request):
     if request.method == 'POST':
@@ -42,7 +43,10 @@ def register(request):
     )
 
 
-def email(request):
+
+'''
+@background(schedule=60)
+def email():
     data = []
     for i in range(8):
         page = open("signup/data/Contaminated("+str(i)+")")
@@ -66,3 +70,4 @@ def email(request):
                 print('match found, sending email')
                 send_email(u.Email, 'Contamination Alert', 'The contaminant in hazardous quantity is '+row[7]+'. The permissible limit is '+row[8]+' while the current value is '+row[9]+'. Please be safe.')
     return HttpResponseRedirect('/')
+'''

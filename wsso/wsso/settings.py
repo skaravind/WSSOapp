@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'frontend',
     'analysis',
     'signup',
+    'background_task',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
